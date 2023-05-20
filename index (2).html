@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>합</title>
+</head>
+<body>
+<h1>sum구하기</h1>
+<script>
+sum = 0
+kk=100
+start = new Date()
+for( k=1 ; k<=kk ; k++) {
+   sum = sum + k
+//document.write("k is" + k + ", sum is" + sum + "<br>")
+}
+end = new Date()
+document.write( "k is" + k + ", sum is " + sum + "<br>" )
+document.write( "Computing Time is" + (end-start) + "ms" )
+</script>
+</body>
+</html>
